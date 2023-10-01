@@ -8,7 +8,7 @@ services:
     container_name: meme-generator-app
     tty: true
     ports:
-      - "8020:7001"
+      - "8020:8020"
       - "5173:5173"
     working_dir: /app
     volumes:
