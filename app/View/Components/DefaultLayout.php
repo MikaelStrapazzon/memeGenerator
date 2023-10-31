@@ -5,7 +5,7 @@ namespace App\View\Components;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 
-class NoLoggedLayout extends Component
+class DefaultLayout extends Component
 {
     /**
      * Get the view / contents that represents the component.
@@ -14,6 +14,6 @@ class NoLoggedLayout extends Component
      */
     public function render(): View
     {
-        return view('layouts.noLogged');
+        return view('layouts.default');
     }
 }

@@ -14,16 +14,25 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
-<div id="app" class="vh-100 vw-100 min-vh-100 min-vw-100">
-    <main class="h-100">
-        {{ $slot }}
-    </main>
-</div>
+    <div
+        id="app"
+        class="
+            h-100 w-100
+            min-vh-100
+            d-flex align-items-stretch flex-column overflow-hidden"
+    >
+        <x-headers.header-default />
+
+        <main class="h-100 w-100 min-wf-300 p-3 d-flex flex-grow-1">
+            {{ $slot }}
+        </main>
+
+        <x-footers.footer-default />
+    </div>
 </body>
 </html>
