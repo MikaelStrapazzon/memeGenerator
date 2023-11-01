@@ -10,3 +10,11 @@ Route::fallback(function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::middleware(['auth'])->group(function () {
+
+    Route::get('/teste/auth', function () {
+        return "Esse é um exemplo de endpoint autenticado, em um cenário real apontar uma controller como o endpoint acima";
+    });
+
+});
