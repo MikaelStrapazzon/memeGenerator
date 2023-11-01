@@ -18,7 +18,12 @@
                     <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
                         <li><a class="dropdown-item" href="#">Histórico</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Deslogar</a></li>
+                        <li>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <input type="submit" class="dropdown-item" value="Deslogar" />
+                            </form>
+                        </li>
                     </ul>
                 @else
                     <a href="{{ route('login') }}">
