@@ -1,0 +1,181 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+  
+  a {
+      color: rgb(0, 0, 0);
+  }
+  
+  //card de cadastro & login
+  .card{
+      
+      border: 2px solid #000000;
+     
+      bottom: -200px;
+      right: -500px;
+      width: 500px;
+  
+      border-radius: 35px; 
+      overflow: hidden;
+  
+  }
+  
+  .card-header {
+  
+      display: flex;
+      border-bottom: 2px solid #000000;
+  }
+  
+  .card-body{
+      background: rgb(255, 255, 255);
+      
+      
+  }
+  
+  .circle {
+      width: 10px;
+      height: 10px;
+      background-color: #000000;
+      border-radius: 50%; 
+      margin-right: 10px; 
+  }
+  
+  //card de cadastro 2
+  .card-register{
+      border: 2px solid #000000;
+     
+      bottom: 270px;
+      right: 120px;
+      width: 300px;
+  
+      border-radius: 35px; 
+      overflow: hidden;
+      position: absolute;
+  }
+  
+  .card-header-register{
+      display: flex;
+      border-bottom: 2px solid #000000;
+  }
+  
+  .card-body-register{
+      background: rgb(255, 255, 255);
+      
+      
+  }
+  
+  
+  .circle-register {
+      width: 10px;
+      height: 10px;
+      background-color: #000000;
+      border-radius: 30%;  
+      margin-right: 10px; 
+  }
+  
+  
+  //card de login 2
+  
+  .card-login{
+      border: 2px solid #000000;
+     
+      bottom: 320px;
+      right: 150px;
+      width: 300px;
+  
+      border-radius: 35px; 
+      overflow: hidden;
+      position: absolute;
+  }
+  
+  .card-header-login{
+      display: flex;
+      border-bottom: 2px solid #000000;
+  }
+  
+  .card-body-login{
+      background: rgb(255, 255, 255);
+      
+      
+  }
+  
+  .circle-login {
+      width: 10px;
+      height: 10px;
+      background-color: #000000;
+      border-radius: 30%; 
+      margin-right: 10px; 
+  }
+  
+   .user-icon{
+      position: absolute;
+      top: 30; 
+      right: 50;
+      z-index: 2; 
+      
+  }
+  
+  .mail-icon{
+      position: absolute;
+      top: 30; 
+      right: 50; 
+      z-index: 2; 
+      
+  }
+  
+  .pass-icon{
+      position: absolute;
+      top: 30; 
+      right: 50; 
+      z-index: 2; 
+      
+  }
+  
+  .brush-image {
+      position: absolute;
+      top: 30;
+      right: 50; 
+      z-index: 2; 
+      transform: rotate(-20deg); 
+  }
+  
+ /* .btn {
+      background-color: #0000008c;
+      border: 2px solid #ffffff;
+      color: white;
+      font-weight: bold;
+  }
+  */
+  
+  .circle-container {
+      background-color: #5c52b6; 
+      border: 3px solid #000000; 
+      border-radius: 50%; 
+      width: 220px; 
+      height: 220px; 
+      position: fixed; 
+      left: 50%; 
+      bottom: -90px; 
+      transform: translateX(-50%); 
+  }
+  
+  
+   
+  
+  .bottom-container {
+      background-color: #ffffff; 
+      border-top: 3px solid #000000;
+      position: absolute; 
+      bottom: 0; 
+      width: 100%; 
+      height: 60px;
+  }
+ 
+  
+  
+  
