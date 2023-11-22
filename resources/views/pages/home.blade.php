@@ -3,10 +3,8 @@
         <div class="row container-xl">
 
             <div class="col-sm-6 pe-0">
-                <div class="card">
-                    <div style="background-color: dimgray; height: 600px; width: 400px">
-                        Imagem
-                    </div>
+                <div class="card d-flex align-items-center">
+                    <img src="https://e00-elmundo.uecdn.es/television/programacion-tv/img/v2/programas/50/553552.png" style="width: 400px" alt="">
                 </div>
             </div>
 

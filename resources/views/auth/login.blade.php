@@ -10,13 +10,13 @@
     <style>
 
         body {
-        
-            background-image: url('storage/images/background_4.png');
+
+            background-image: url('images/background_4.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-        
-            
+
+
           }
           </style>
 
@@ -25,7 +25,7 @@
 
             <div class="card" style="bottom: -280px">
 
-            <div class="card-header"> 
+            <div class="card-header">
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
@@ -45,7 +45,7 @@
                     @endif
 
                     <div class="email_field">
-                        <img class="mail-icon" src= "{{asset('storage/images/email_icon.png') }}"width="30" height="30" alt="Your Image">
+                        <img class="mail-icon" src= "{{asset('images/email_icon.png') }}"width="30" height="30" alt="Your Image">
                         <div class="row mb-3">
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email') }}</label>
 
@@ -58,13 +58,13 @@
                                 autocomplete="email"
                                 required autofocus />
 
-                              
+
                             </div>
                         </div>
                     </div>
 
                     <div class="password_field">
-                        <img class="pass-icon" src= "{{asset('storage/images/password_icon.png') }}"width="30" height="30" alt="Your Image">
+                        <img class="pass-icon" src= "{{asset('images/password_icon.png') }}"width="30" height="30" alt="Your Image">
                         <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Senha') }}</label>
 
@@ -78,7 +78,7 @@
                                 required
                                 />
 
-                              
+
                             </div>
                         </div>
                     </div>
@@ -101,9 +101,9 @@
                                     {{ __('Entrar') }}
                                 </button>
 
-                                
 
-                               
+
+
                             </div>
                         </div>
                     </form>
@@ -128,8 +128,5 @@
             </div>
         </div>
     </div>
-
-
-
 
 @endsection
