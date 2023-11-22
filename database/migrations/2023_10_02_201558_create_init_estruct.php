@@ -24,7 +24,8 @@ return new class extends Migration
         Schema::create('tb_template', function (Blueprint $table) {
             $table->BigIncrements('id_template');
             $table->String('nm_template');
-
+            $table->string('path_template');
+            
             $table->timestamps();
 
             $table->index('id_template');
