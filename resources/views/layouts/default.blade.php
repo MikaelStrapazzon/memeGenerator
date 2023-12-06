@@ -15,6 +15,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
+    <script type="text/javascript" src="{{ asset('library/p5/p5.js') }}"></script>
+
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>

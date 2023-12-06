@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Template;
+
 class HomeController extends Controller
 {
     /**
@@ -9,6 +11,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('pages.home');
+        return view('pages.home')->with('templates', Template::all());
     }
 }

@@ -16,8 +16,7 @@
                         <b>Mario</b>
                     </a>
                     <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-                        <li><a class="dropdown-item" href="#">Histórico</a></li>
-                        <li><a class="dropdown-item" href="{{ route('templates') }}">Templates</a></li>
+                        <li><a class="dropdown-item" href="{{ route('templates.list') }}">Templates</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST">
