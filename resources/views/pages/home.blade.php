@@ -116,7 +116,7 @@
             input.style('background', 'rgba(255, 255, 255, 0.4)');
             input.style('border', '0');
             input.style('padding', '0 10px 0 10px');
-            input.style('font-size', '48px');
+            input.style('font-size', '58px');
             input.style('font-weight', 'bold');
             input.style('text-align', 'center');
             input.style('color', 'black');
@@ -125,7 +125,7 @@
         }
 
         function downloadCanvas() {
-            textSize(48)
+            textSize(58)
             textAlign(CENTER, CENTER)
             strokeWeight(10);
 
